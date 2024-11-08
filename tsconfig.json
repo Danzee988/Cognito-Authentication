@@ -28,7 +28,9 @@
     "node_modules",
     "cdk.out"
   ],
-  "include": [
-    "shared/*.json"
-  ],
+ "include": [
+  "shared/**/*.json",
+  "shared/**/*.ts",
+  "src/**/*.ts"
+]
 }
